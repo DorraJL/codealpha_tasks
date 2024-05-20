@@ -1,0 +1,239 @@
+Packet Analysis Report
+=====================================
+Packet count: 96
+=====================================
+Protocol distribution: Counter({'UDP': 17, 'TCP': 16, 'IGMP': 5})
+=====================================
+Packet sizes: [60, 60, 60, 60, 60, 60, 60, 216, 217, 60, 216, 217, 54, 60, 216, 217, 60, 216, 217, 42, 60, 60, 60, 60, 60, 60, 60, 93, 60, 93, 54, 85, 105, 85, 105, 54, 60, 42, 60, 358, 342, 60, 90, 60, 90, 60, 90, 60, 90, 60, 81, 101, 139, 119, 81, 101, 139, 119, 95, 75, 60, 90, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 93, 60, 78, 54, 60, 60, 60, 60, 54, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60]
+=====================================
+Top talkers: Source: 192.168.218.1 - Count: 21
+Destination: 239.255.255.250 - Count: 8
+Source: 192.168.218.128 - Count: 8
+Destination: 192.168.218.128 - Count: 8
+Destination: 34.117.188.166 - Count: 6
+Source: 34.117.188.166 - Count: 6
+Destination: 224.0.0.251 - Count: 6
+Destination: 224.0.0.22 - Count: 5
+Destination: 20.42.73.24 - Count: 2
+Source: 20.42.73.24 - Count: 2
+=====================================
+Traffic patterns: Traffic Pattern: Source: 192.168.218.1, Destination: 239.255.255.250 - Count: 8
+Traffic Pattern: Source: 192.168.218.128, Destination: 34.117.188.166 - Count: 6
+Traffic Pattern: Source: 34.117.188.166, Destination: 192.168.218.128 - Count: 6
+Traffic Pattern: Source: 192.168.218.1, Destination: 224.0.0.251 - Count: 6
+Traffic Pattern: Source: 192.168.218.1, Destination: 224.0.0.22 - Count: 5
+Traffic Pattern: Source: 192.168.218.128, Destination: 20.42.73.24 - Count: 2
+Traffic Pattern: Source: 20.42.73.24, Destination: 192.168.218.128 - Count: 2
+Traffic Pattern: Source: 192.168.218.1, Destination: 192.168.218.254 - Count: 1
+Traffic Pattern: Source: 192.168.218.254, Destination: 192.168.218.1 - Count: 1
+Traffic Pattern: Source: 192.168.218.1, Destination: 224.0.0.252 - Count: 1
+=====================================
+DNS requests: DNS Request: _microsoft_mcc._tcp.local.
+DNS Request: _microsoft_mcc._tcp.local.
+DNS Request: _microsoft_mcc._tcp.local.
+DNS Request: _microsoft_mcc._tcp.local.
+DNS Request: DESKTOP-C2N4134.local.
+DNS Request: DESKTOP-C2N4134.local.
+DNS Request: DESKTOP-C2N4134.local.
+DNS Request: DESKTOP-C2N4134.local.
+DNS Request: DESKTOP-C2N4134.
+DNS Request: DESKTOP-C2N4134.
+=====================================
+HTTP requests: 
+=====================================
+HTTP responses: HTTP Response: M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 1
+ST: urn:dial-multiscreen-org:service:dial:1
+USER-AGENT: Google Chrome/125.0.6422.60 Windows
+
+
+HTTP Response: M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 1
+ST: urn:dial-multiscreen-org:service:dial:1
+USER-AGENT: Microsoft Edge/125.0.2535.51 Windows
+
+
+HTTP Response: M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 1
+ST: urn:dial-multiscreen-org:service:dial:1
+USER-AGENT: Google Chrome/125.0.6422.60 Windows
+
+
+HTTP Response: M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 1
+ST: urn:dial-multiscreen-org:service:dial:1
+USER-AGENT: Microsoft Edge/125.0.2535.51 Windows
+
+
+HTTP Response: M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 1
+ST: urn:dial-multiscreen-org:service:dial:1
+USER-AGENT: Google Chrome/125.0.6422.60 Windows
+
+
+HTTP Response: M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 1
+ST: urn:dial-multiscreen-org:service:dial:1
+USER-AGENT: Microsoft Edge/125.0.2535.51 Windows
+
+
+HTTP Response: M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 1
+ST: urn:dial-multiscreen-org:service:dial:1
+USER-AGENT: Google Chrome/125.0.6422.60 Windows
+
+
+HTTP Response: M-SEARCH * HTTP/1.1
+HOST: 239.255.255.250:1900
+MAN: "ssdp:discover"
+MX: 1
+ST: urn:dial-multiscreen-org:service:dial:1
+USER-AGENT: Microsoft Edge/125.0.2535.51 Windows
+
+
+=====================================
+SSL handshakes: SSL Handshake: [<TLSApplicationData  data='\x15";z\\xbbp\x06ƌ\\xe6X/.\\xf6[\\xbe\t\\x81>\x16(ea{\\Z\\xa6\\x91\\xa9\x08F\\x81V\n' |>]
+SSL Handshake: [<TLSApplicationData  data='\x12\x12D\\xb1\x1dY\x1c\\x85m\\x8b\\xa0\\xa5-J\\x80Gad\\xf1a\\xb5\\x86\\xebOv\\xab\\xe0\x0e"7\x198&X' |>]
+SSL Handshake: [<TLSApplicationData  data='\\xf9r\\xda잮\\x80\\xd3r\\xbb\x1b\\xe61\\xcbAK&\\x96/\x10\\xb7\\x8dl\\x84\\xa0GjE\\x81\\xc6vJ\\xb7\\xe6' |>]
+SSL Handshake: [<TLSApplicationData  data='9\\xa1\\xa3\x0f\\xd91sh\\x8f\x17\\xde\\xe3[VL\\xc6Uz\\x87' |>]
+=====================================
+TCP connections: Source Port: 41032, Destination Port: 443 - Count: 6
+Source Port: 443, Destination Port: 41032 - Count: 6
+Source Port: 38020, Destination Port: 443 - Count: 2
+Source Port: 443, Destination Port: 38020 - Count: 2
+=====================================
+Traffic volume analysis: Time: 1716219275.872610, Packet Length: 60
+Time: 1716219277.060107, Packet Length: 60
+Time: 1716219277.875278, Packet Length: 60
+Time: 1716219278.876441, Packet Length: 60
+Time: 1716219284.648029, Packet Length: 60
+Time: 1716219285.377588, Packet Length: 60
+Time: 1716219286.378959, Packet Length: 60
+Time: 1716219287.162394, Packet Length: 216
+Time: 1716219287.219928, Packet Length: 217
+Time: 1716219287.626002, Packet Length: 60
+Time: 1716219288.164541, Packet Length: 216
+Time: 1716219288.226084, Packet Length: 217
+Time: 1716219288.263640, Packet Length: 54
+Time: 1716219288.379246, Packet Length: 60
+Time: 1716219289.179202, Packet Length: 216
+Time: 1716219289.241622, Packet Length: 217
+Time: 1716219289.379961, Packet Length: 60
+Time: 1716219290.180685, Packet Length: 216
+Time: 1716219290.257434, Packet Length: 217
+Time: 1716219293.383916, Packet Length: 42
+Time: 1716219293.384907, Packet Length: 60
+Time: 1716219293.654418, Packet Length: 60
+Time: 1716219294.377822, Packet Length: 60
+Time: 1716219295.379817, Packet Length: 60
+Time: 1716219296.675366, Packet Length: 60
+Time: 1716219297.382326, Packet Length: 60
+Time: 1716219298.383076, Packet Length: 60
+Time: 1716219300.727754, Packet Length: 93
+Time: 1716219300.728168, Packet Length: 60
+Time: 1716219300.793888, Packet Length: 93
+Time: 1716219300.794002, Packet Length: 54
+Time: 1716219306.900701, Packet Length: 85
+Time: 1716219306.902450, Packet Length: 105
+Time: 1716219307.912710, Packet Length: 85
+Time: 1716219307.913882, Packet Length: 105
+Time: 1716219333.319994, Packet Length: 54
+Time: 1716219333.320707, Packet Length: 60
+Time: 1716219338.443552, Packet Length: 42
+Time: 1716219338.445076, Packet Length: 60
+Time: 1716219341.160859, Packet Length: 358
+Time: 1716219341.161886, Packet Length: 342
+Time: 1716219341.178660, Packet Length: 60
+Time: 1716219341.186141, Packet Length: 90
+Time: 1716219341.186142, Packet Length: 60
+Time: 1716219341.230290, Packet Length: 90
+Time: 1716219341.230765, Packet Length: 60
+Time: 1716219341.231012, Packet Length: 90
+Time: 1716219341.231012, Packet Length: 60
+Time: 1716219341.244128, Packet Length: 90
+Time: 1716219341.244197, Packet Length: 60
+Time: 1716219341.247563, Packet Length: 81
+Time: 1716219341.249001, Packet Length: 101
+Time: 1716219341.249768, Packet Length: 139
+Time: 1716219341.250283, Packet Length: 119
+Time: 1716219341.251524, Packet Length: 81
+Time: 1716219341.252627, Packet Length: 101
+Time: 1716219341.253220, Packet Length: 139
+Time: 1716219341.253559, Packet Length: 119
+Time: 1716219341.254357, Packet Length: 95
+Time: 1716219341.254487, Packet Length: 75
+Time: 1716219341.380308, Packet Length: 60
+Time: 1716219341.380654, Packet Length: 90
+Time: 1716219341.873102, Packet Length: 60
+Time: 1716219342.872556, Packet Length: 60
+Time: 1716219344.195316, Packet Length: 60
+Time: 1716219344.872389, Packet Length: 60
+Time: 1716219345.872630, Packet Length: 60
+Time: 1716219345.872631, Packet Length: 60
+Time: 1716219345.872631, Packet Length: 60
+Time: 1716219347.212185, Packet Length: 60
+Time: 1716219347.873814, Packet Length: 60
+Time: 1716219348.873924, Packet Length: 60
+Time: 1716219350.229295, Packet Length: 60
+Time: 1716219350.876570, Packet Length: 60
+Time: 1716219351.875573, Packet Length: 60
+Time: 1716219353.243644, Packet Length: 60
+Time: 1716219353.832304, Packet Length: 93
+Time: 1716219353.832736, Packet Length: 60
+Time: 1716219353.839908, Packet Length: 78
+Time: 1716219353.840014, Packet Length: 54
+Time: 1716219353.840221, Packet Length: 60
+Time: 1716219353.840222, Packet Length: 60
+Time: 1716219353.875708, Packet Length: 60
+Time: 1716219353.891526, Packet Length: 60
+Time: 1716219353.891552, Packet Length: 54
+Time: 1716219354.877635, Packet Length: 60
+Time: 1716219356.262615, Packet Length: 60
+Time: 1716219356.876416, Packet Length: 60
+Time: 1716219357.874061, Packet Length: 60
+Time: 1716219359.275418, Packet Length: 60
+Time: 1716219359.875215, Packet Length: 60
+Time: 1716219360.874895, Packet Length: 60
+Time: 1716219362.291149, Packet Length: 60
+Time: 1716219362.877393, Packet Length: 60
+Time: 1716219363.877584, Packet Length: 60
+Time: 1716219365.932747, Packet Length: 60
+=====================================
+Payload: [b'M-SEARCH * HTTP/1.1\r\nHOST: 239.255.255.250:1900\r\nMAN: "ssdp:discover"\r\nMX: 1\r\nST: urn:dial-multiscreen-org:service:dial:1\r\nUSER-AGENT: Google Chrome/125.0.6422.60 Windows\r\n\r\n', b'M-SEARCH * HTTP/1.1\r\nHOST: 239.255.255.250:1900\r\nMAN: "ssdp:discover"\r\nMX: 1\r\nST: urn:dial-multiscreen-org:service:dial:1\r\nUSER-AGENT: Microsoft Edge/125.0.2535.51 Windows\r\n\r\n', b'M-SEARCH * HTTP/1.1\r\nHOST: 239.255.255.250:1900\r\nMAN: "ssdp:discover"\r\nMX: 1\r\nST: urn:dial-multiscreen-org:service:dial:1\r\nUSER-AGENT: Google Chrome/125.0.6422.60 Windows\r\n\r\n', b'M-SEARCH * HTTP/1.1\r\nHOST: 239.255.255.250:1900\r\nMAN: "ssdp:discover"\r\nMX: 1\r\nST: urn:dial-multiscreen-org:service:dial:1\r\nUSER-AGENT: Microsoft Edge/125.0.2535.51 Windows\r\n\r\n', b'M-SEARCH * HTTP/1.1\r\nHOST: 239.255.255.250:1900\r\nMAN: "ssdp:discover"\r\nMX: 1\r\nST: urn:dial-multiscreen-org:service:dial:1\r\nUSER-AGENT: Google Chrome/125.0.6422.60 Windows\r\n\r\n', b'M-SEARCH * HTTP/1.1\r\nHOST: 239.255.255.250:1900\r\nMAN: "ssdp:discover"\r\nMX: 1\r\nST: urn:dial-multiscreen-org:service:dial:1\r\nUSER-AGENT: Microsoft Edge/125.0.2535.51 Windows\r\n\r\n', b'M-SEARCH * HTTP/1.1\r\nHOST: 239.255.255.250:1900\r\nMAN: "ssdp:discover"\r\nMX: 1\r\nST: urn:dial-multiscreen-org:service:dial:1\r\nUSER-AGENT: Google Chrome/125.0.6422.60 Windows\r\n\r\n', b'M-SEARCH * HTTP/1.1\r\nHOST: 239.255.255.250:1900\r\nMAN: "ssdp:discover"\r\nMX: 1\r\nST: urn:dial-multiscreen-org:service:dial:1\r\nUSER-AGENT: Microsoft Edge/125.0.2535.51 Windows\r\n\r\n', b'"\x00\xfa\x01\x00\x00\x00\x01\x03\x00\x00\x00\xe0\x00\x00\xfc', b'"\x00\xf9\x01\x00\x00\x00\x01\x04\x00\x00\x00\xe0\x00\x00\xfc', b'"\x00\xfa\x01\x00\x00\x00\x01\x03\x00\x00\x00\xe0\x00\x00\xfc', b'"\x00\xf9\x01\x00\x00\x00\x01\x04\x00\x00\x00\xe0\x00\x00\xfc', b'"\x00\xf9\x01\x00\x00\x00\x01\x04\x00\x00\x00\xe0\x00\x00\xfc']
+=====================================
+Payload: [b'\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00']
+=====================================
+Payload: [b'M-SEARCH * HTTP/1.1\r\nHOST: 239.255.255.250:1900\r\nMAN: "ssdp:discover"\r\nMX: 1\r\nST: urn:dial-multiscreen-org:service:dial:1\r\nUSER-AGENT: Google Chrome/125.0.6422.60 Windows\r\n\r\n', b'M-SEARCH * HTTP/1.1\r\nHOST: 239.255.255.250:1900\r\nMAN: "ssdp:discover"\r\nMX: 1\r\nST: urn:dial-multiscreen-org:service:dial:1\r\nUSER-AGENT: Microsoft Edge/125.0.2535.51 Windows\r\n\r\n', b'M-SEARCH * HTTP/1.1\r\nHOST: 239.255.255.250:1900\r\nMAN: "ssdp:discover"\r\nMX: 1\r\nST: urn:dial-multiscreen-org:service:dial:1\r\nUSER-AGENT: Google Chrome/125.0.6422.60 Windows\r\n\r\n', b'M-SEARCH * HTTP/1.1\r\nHOST: 239.255.255.250:1900\r\nMAN: "ssdp:discover"\r\nMX: 1\r\nST: urn:dial-multiscreen-org:service:dial:1\r\nUSER-AGENT: Microsoft Edge/125.0.2535.51 Windows\r\n\r\n', b'M-SEARCH * HTTP/1.1\r\nHOST: 239.255.255.250:1900\r\nMAN: "ssdp:discover"\r\nMX: 1\r\nST: urn:dial-multiscreen-org:service:dial:1\r\nUSER-AGENT: Google Chrome/125.0.6422.60 Windows\r\n\r\n', b'M-SEARCH * HTTP/1.1\r\nHOST: 239.255.255.250:1900\r\nMAN: "ssdp:discover"\r\nMX: 1\r\nST: urn:dial-multiscreen-org:service:dial:1\r\nUSER-AGENT: Microsoft Edge/125.0.2535.51 Windows\r\n\r\n', b'M-SEARCH * HTTP/1.1\r\nHOST: 239.255.255.250:1900\r\nMAN: "ssdp:discover"\r\nMX: 1\r\nST: urn:dial-multiscreen-org:service:dial:1\r\nUSER-AGENT: Google Chrome/125.0.6422.60 Windows\r\n\r\n', b'M-SEARCH * HTTP/1.1\r\nHOST: 239.255.255.250:1900\r\nMAN: "ssdp:discover"\r\nMX: 1\r\nST: urn:dial-multiscreen-org:service:dial:1\r\nUSER-AGENT: Microsoft Edge/125.0.2535.51 Windows\r\n\r\n']
+=====================================
+Payload: []
+=====================================
+Payload: [b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00']
+=====================================
+Payload: []
+=====================================
+Payload: []
+=====================================
+Payload: []
+=====================================
+Payload: [b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'M-SEARCH * HTTP/1.1\r\nHOST: 239.255.255.250:1900\r\nMAN: "ssdp:discover"\r\nMX: 1\r\nST: urn:dial-multiscreen-org:service:dial:1\r\nUSER-AGENT: Google Chrome/125.0.6422.60 Windows\r\n\r\n', b'M-SEARCH * HTTP/1.1\r\nHOST: 239.255.255.250:1900\r\nMAN: "ssdp:discover"\r\nMX: 1\r\nST: urn:dial-multiscreen-org:service:dial:1\r\nUSER-AGENT: Microsoft Edge/125.0.2535.51 Windows\r\n\r\n', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'M-SEARCH * HTTP/1.1\r\nHOST: 239.255.255.250:1900\r\nMAN: "ssdp:discover"\r\nMX: 1\r\nST: urn:dial-multiscreen-org:service:dial:1\r\nUSER-AGENT: Google Chrome/125.0.6422.60 Windows\r\n\r\n', b'M-SEARCH * HTTP/1.1\r\nHOST: 239.255.255.250:1900\r\nMAN: "ssdp:discover"\r\nMX: 1\r\nST: urn:dial-multiscreen-org:service:dial:1\r\nUSER-AGENT: Microsoft Edge/125.0.2535.51 Windows\r\n\r\n', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'M-SEARCH * HTTP/1.1\r\nHOST: 239.255.255.250:1900\r\nMAN: "ssdp:discover"\r\nMX: 1\r\nST: urn:dial-multiscreen-org:service:dial:1\r\nUSER-AGENT: Google Chrome/125.0.6422.60 Windows\r\n\r\n', b'M-SEARCH * HTTP/1.1\r\nHOST: 239.255.255.250:1900\r\nMAN: "ssdp:discover"\r\nMX: 1\r\nST: urn:dial-multiscreen-org:service:dial:1\r\nUSER-AGENT: Microsoft Edge/125.0.2535.51 Windows\r\n\r\n', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'M-SEARCH * HTTP/1.1\r\nHOST: 239.255.255.250:1900\r\nMAN: "ssdp:discover"\r\nMX: 1\r\nST: urn:dial-multiscreen-org:service:dial:1\r\nUSER-AGENT: Google Chrome/125.0.6422.60 Windows\r\n\r\n', b'M-SEARCH * HTTP/1.1\r\nHOST: 239.255.255.250:1900\r\nMAN: "ssdp:discover"\r\nMX: 1\r\nST: urn:dial-multiscreen-org:service:dial:1\r\nUSER-AGENT: Microsoft Edge/125.0.2535.51 Windows\r\n\r\n', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'"\x00\xfa\x01\x00\x00\x00\x01\x03\x00\x00\x00\xe0\x00\x00\xfc', b'"\x00\xf9\x01\x00\x00\x00\x01\x04\x00\x00\x00\xe0\x00\x00\xfc', b'"\x00\xfa\x01\x00\x00\x00\x01\x03\x00\x00\x00\xe0\x00\x00\xfc', b'"\x00\xf9\x01\x00\x00\x00\x01\x04\x00\x00\x00\xe0\x00\x00\xfc', b'"\x00\xf9\x01\x00\x00\x00\x01\x04\x00\x00\x00\xe0\x00\x00\xfc', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00']
+=====================================
+Payload: [b'M-SEARCH * HTTP/1.1\r\nHOST: 239.255.255.250:1900\r\nMAN: "ssdp:discover"\r\nMX: 1\r\nST: urn:dial-multiscreen-org:service:dial:1\r\nUSER-AGENT: Google Chrome/125.0.6422.60 Windows\r\n\r\n', b'M-SEARCH * HTTP/1.1\r\nHOST: 239.255.255.250:1900\r\nMAN: "ssdp:discover"\r\nMX: 1\r\nST: urn:dial-multiscreen-org:service:dial:1\r\nUSER-AGENT: Microsoft Edge/125.0.2535.51 Windows\r\n\r\n', b'M-SEARCH * HTTP/1.1\r\nHOST: 239.255.255.250:1900\r\nMAN: "ssdp:discover"\r\nMX: 1\r\nST: urn:dial-multiscreen-org:service:dial:1\r\nUSER-AGENT: Google Chrome/125.0.6422.60 Windows\r\n\r\n', b'M-SEARCH * HTTP/1.1\r\nHOST: 239.255.255.250:1900\r\nMAN: "ssdp:discover"\r\nMX: 1\r\nST: urn:dial-multiscreen-org:service:dial:1\r\nUSER-AGENT: Microsoft Edge/125.0.2535.51 Windows\r\n\r\n', b'M-SEARCH * HTTP/1.1\r\nHOST: 239.255.255.250:1900\r\nMAN: "ssdp:discover"\r\nMX: 1\r\nST: urn:dial-multiscreen-org:service:dial:1\r\nUSER-AGENT: Google Chrome/125.0.6422.60 Windows\r\n\r\n', b'M-SEARCH * HTTP/1.1\r\nHOST: 239.255.255.250:1900\r\nMAN: "ssdp:discover"\r\nMX: 1\r\nST: urn:dial-multiscreen-org:service:dial:1\r\nUSER-AGENT: Microsoft Edge/125.0.2535.51 Windows\r\n\r\n', b'M-SEARCH * HTTP/1.1\r\nHOST: 239.255.255.250:1900\r\nMAN: "ssdp:discover"\r\nMX: 1\r\nST: urn:dial-multiscreen-org:service:dial:1\r\nUSER-AGENT: Google Chrome/125.0.6422.60 Windows\r\n\r\n', b'M-SEARCH * HTTP/1.1\r\nHOST: 239.255.255.250:1900\r\nMAN: "ssdp:discover"\r\nMX: 1\r\nST: urn:dial-multiscreen-org:service:dial:1\r\nUSER-AGENT: Microsoft Edge/125.0.2535.51 Windows\r\n\r\n', b'\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00', b'"\x00\xfa\x01\x00\x00\x00\x01\x03\x00\x00\x00\xe0\x00\x00\xfc', b'"\x00\xf9\x01\x00\x00\x00\x01\x04\x00\x00\x00\xe0\x00\x00\xfc', b'"\x00\xfa\x01\x00\x00\x00\x01\x03\x00\x00\x00\xe0\x00\x00\xfc', b'"\x00\xf9\x01\x00\x00\x00\x01\x04\x00\x00\x00\xe0\x00\x00\xfc', b'"\x00\xf9\x01\x00\x00\x00\x01\x04\x00\x00\x00\xe0\x00\x00\xfc', b'\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00', b'\x00\x00\x00\x00\x00\x00']
+=====================================
+Payload: []
+=====================================
+Payload: []
+=====================================
